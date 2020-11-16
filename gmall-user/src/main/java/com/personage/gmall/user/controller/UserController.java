@@ -1,12 +1,10 @@
 package com.personage.gmall.user.controller;
 
-import com.personage.gmall.user.bean.UmsMember;
-import com.personage.gmall.user.bean.UmsMemberReceiveAddress;
-import com.personage.gmall.user.service.UserService;
+import com.personage.gmall.bean.UmsMember;
+import com.personage.gmall.bean.UmsMemberReceiveAddress;
+import com.personage.gmall.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -39,6 +37,7 @@ public class UserController {
         List<UmsMemberReceiveAddress> umsMemberReceiveAddresses = userService.selectAll(memberId);
     return umsMemberReceiveAddresses;
     }
+
 
 
 }

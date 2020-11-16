@@ -10,8 +10,8 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
-
-  type-aliases-package: com.personage.gmall.user.bean
+  configuration:
+    map-underscore-to-camel-case: true
 #使用通用Mapper后自动转换
 #  configuration:
 #    map-underscore-to-camel-case: true #数据库下划线转为java驼峰命名

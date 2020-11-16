@@ -1,10 +1,11 @@
 package com.personage.gmall.user;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GmallUserApplicationTests {
+class UserApplicationTests {
 
     @Test
     void contextLoads() {

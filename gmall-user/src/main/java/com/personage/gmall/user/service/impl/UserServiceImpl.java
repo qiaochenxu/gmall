@@ -1,10 +1,10 @@
 package com.personage.gmall.user.service.impl;
 
-import com.personage.gmall.user.bean.UmsMember;
-import com.personage.gmall.user.bean.UmsMemberReceiveAddress;
+import com.personage.gmall.bean.UmsMember;
+import com.personage.gmall.bean.UmsMemberReceiveAddress;
+import com.personage.gmall.service.UserService;
 import com.personage.gmall.user.mapper.UmsMemberReceiveAddressMapper;
 import com.personage.gmall.user.mapper.UserMapper;
-import com.personage.gmall.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -39,4 +39,6 @@ public class UserServiceImpl implements UserService {
         List<UmsMemberReceiveAddress> select = umsMemberReceiveAddressMapper.select(umsMemberReceiveAddress);
         return select;
     }
+
+
 }

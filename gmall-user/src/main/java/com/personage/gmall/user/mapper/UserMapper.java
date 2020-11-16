@@ -1,10 +1,7 @@
 package com.personage.gmall.user.mapper;
 
-import com.personage.gmall.user.bean.UmsMember;
-import org.springframework.stereotype.Repository;
+import com.personage.gmall.bean.UmsMember;
 import tk.mybatis.mapper.common.Mapper;
-
-import java.util.List;
 
 /**
  * @author 乔晨旭
